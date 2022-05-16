@@ -8,5 +8,8 @@
 
 .mission {
     background-image: url("./img-mission-background.jpg");
+    background-repeat: no-repeat;
     height: 700px;
+    width: 1200px;
+    margin: 0 auto;
 }
