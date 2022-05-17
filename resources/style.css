@@ -37,20 +37,50 @@
     width: 1200px;
 }
 
-.features {
-    display: flex;
-    justify-content: center;
-}
-
-.images {
-    display: flex;
-    width: 1000px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 #pic {
     height: 200px;
     width: 300px;
 }
 
+#featured {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#feattitle {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#capmargin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.locationinfo {
+    background-image: url(./img-locations-background.jpg);
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#lcn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#lcns {
+    width: 300px;
+    text-align: center;
+}
