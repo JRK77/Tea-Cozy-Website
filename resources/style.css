@@ -63,24 +63,26 @@
 
 #capmargin {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
 .locationinfo {
+    display: flex;
     background-image: url(./img-locations-background.jpg);
     height: 600px;
     width: 1200px;
     margin: 0 auto;
-}
-
-#lcn {
-    display: flex;
+    text-align: center;
     justify-content: space-around;
     align-items: center;
 }
 
 #lcns {
+    display: flex;
+    justify-content: space-around;
+}
+
+#lcn {
     width: 300px;
-    text-align: center;
 }
